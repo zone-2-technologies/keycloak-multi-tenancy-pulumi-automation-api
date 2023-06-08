@@ -1,0 +1,13 @@
+POST http://localhost:8000/tenants
+Accept: application/json
+Content-Type: application/json
+
+{
+  "slug": "zone2",
+  "name": "Zone 2 technologies Ltd."
+}
+
+###
+
+DELETE http://localhost:8000/tenants/zone2
+Accept: application/json
